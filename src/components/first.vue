@@ -9,7 +9,7 @@
             <p>
               <yd-cell-item>
                 <span class="color" slot="left">
-                  <em style="margin-right:2.5rem">姓</em>名：</span>
+                  <em style="margin-right:.25rem">姓</em>名：</span>
                 <yd-input slot="right" v-model="input7" required :show-clear-icon="false" placeholder="请输入"></yd-input>
               </yd-cell-item>
             </p>
@@ -22,7 +22,7 @@
             <!-- </yd-cell-group> -->
             <p class="sex">
               <span class="color">
-                <em style="margin-right:2.5rem">性</em>别:</span>
+                <em style="margin-right:.25rem">性</em>别:</span>
               <yd-radio-group v-model="radio2" style="display:inline-table">
                 <yd-radio val="1">男</yd-radio>
                 <yd-radio val="2">女</yd-radio>
@@ -31,7 +31,7 @@
             <p class="place">
               <yd-cell-item>
                 <span class="color" slot="left">
-                  <em style="margin-right:2.5rem">籍</em>贯:</span>
+                  <em style="margin-right:0.25rem">籍</em>贯:</span>
                 <input slot="right" type="text" @click.stop="show2 = true" v-model="model2" readonly placeholder="请选择">
               </yd-cell-item>
               <yd-cityselect v-model="show2" ref="cityselectDemo" :callback="result2" :items="district" provance="河南" city="郑州市" area=""></yd-cityselect>
@@ -57,15 +57,15 @@
             <p>
               <yd-cell-item>
                 <span class="color" slot="left">
-                  <em style="margin-right:0.6rem">手</em>
-                  <em style="margin-right:0.6rem">机</em>号:</span>
+                  <em style="margin-right:0.06rem">手</em>
+                  <em style="margin-right:0.06rem">机</em>号:</span>
                 <yd-input slot="right" v-model="input10" regex="mobile" placeholder="请输入"></yd-input>
               </yd-cell-item>
             </p>
             <p>
               <yd-cell-item>
                 <span class="color" slot="left">
-                  <em style="margin-right:2.5rem">邮</em>箱:</span>
+                  <em style="margin-right:0.25rem">邮</em>箱:</span>
                 <yd-input slot="right" v-model="input11" :debug="true" regex="email" placeholder="请输入"></yd-input>
               </yd-cell-item>
             </p>
@@ -110,18 +110,18 @@ export default {
   // margin-top 2rem
   h2
     text-align center
-    font-size 2rem
-    margin-top 2rem
+    font-size .2rem
+    margin-top .2rem
   .detail
-    margin-top 2rem
-    font-size 1.5rem
+    margin-top .2rem
+    font-size .15rem
     color #333
     .sex
-      margin-top 1.5rem
-      padding-left 1.5rem
+      margin-top .15rem
+      padding-left .15rem
     .place
-      margin-top 1.2rem
+      margin-top .12rem
     .color
       color #00CDCD
-      margin-right 1rem
+      margin-right .1rem
 </style>
