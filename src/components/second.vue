@@ -7,7 +7,7 @@
           <p>{{item.label}}</p>
           <yd-list :theme="1">
             <yd-list-item v-for="i in 10" :key="i">
-              <img slot="img" src="//static.shikee.com/common/img/blank.gif">
+              <img slot="img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527253057986&di=b3ccf13b8e3c98ab936da063287a0307&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F94cad1c8a786c9176251f31ec33d70cf3bc75742.jpg">
               <span slot="title">{{item.label}} - {{item.label}}</span>
             </yd-list-item>
           </yd-list>
