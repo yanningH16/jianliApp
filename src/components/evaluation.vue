@@ -8,6 +8,14 @@
           京东超级品牌日格力盛典</yd-rollnotice-item>
         <yd-rollnotice-item>
           京东服饰 早春新品低至7折</yd-rollnotice-item>
+          <yd-rollnotice-item>
+          滚动1</yd-rollnotice-item>
+          <yd-rollnotice-item>
+          滚动2</yd-rollnotice-item>
+          <yd-rollnotice-item>
+          滚动3</yd-rollnotice-item>
+          <yd-rollnotice-item>
+          滚动4</yd-rollnotice-item>
       </yd-rollnotice>
     </div>
     <noCont></noCont>
@@ -23,11 +31,6 @@ export default {
   data () {
     return {
     }
-  },
-  mounted () {
-    document.querySelector('body').addEventListener('touchmove', function (ev) {
-      event.preventDefault()
-    })
   }
 }
 </script>
@@ -39,4 +42,5 @@ export default {
   .scoll
     padding-top 1rem
     margin-bottom 0.5rem
+    font-size 0.15rem
 </style>

@@ -1,8 +1,34 @@
 <template>
   <div class="wrap">
-    <yd-lightbox>
-      <yd-lightbox-img v-for="(item, key) in list" :key="key" :src="item.src"></yd-lightbox-img>
-    </yd-lightbox>
+    <yd-slider autoplay="3000">
+        <yd-slider-item>
+                <img src="../assets/image/1.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/2.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/6.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/4.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/7.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/9.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/15.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/16.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/12.png">
+        </yd-slider-item>
+    </yd-slider>
   </div>
 </template>
 <script type="text/ecmascript-6">
@@ -10,20 +36,6 @@ export default {
   name: 'projectScr',
   data () {
     return {
-      list: [
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s1.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s2.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s3.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s4.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s5.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s6.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s1.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s2.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s3.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s4.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s5.jpg' },
-        { src: 'http://static.ydcss.com/uploads/lightbox/meizu_s6.jpg' }
-      ]
     }
   }
 }
@@ -34,5 +46,6 @@ export default {
   height 100%
   text-align center
   img
-    width 50%
+    width 100%
+    height 7rem
 </style>
