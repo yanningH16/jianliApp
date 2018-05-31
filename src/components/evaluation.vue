@@ -1,14 +1,33 @@
 <template>
   <div class="evaluation">
-    自我评价
+    <div class="scoll">
+      <yd-rollnotice autoplay="3000" align='center'>
+        <yd-rollnotice-item>
+          荣耀V9 3月超级钜惠！</yd-rollnotice-item>
+        <yd-rollnotice-item>
+          京东超级品牌日格力盛典</yd-rollnotice-item>
+        <yd-rollnotice-item>
+          京东服饰 早春新品低至7折</yd-rollnotice-item>
+      </yd-rollnotice>
+    </div>
+    <noCont></noCont>
   </div>
 </template>
 <script type="text/ecmascript-6">
+import noCont from '../assets/lottInde'
 export default {
+  components: {
+    noCont
+  },
   name: 'evaluation',
   data () {
     return {
     }
+  },
+  mounted () {
+    document.querySelector('body').addEventListener('touchmove', function (ev) {
+      event.preventDefault()
+    })
   }
 }
 </script>
@@ -16,5 +35,8 @@ export default {
 .evaluation
   width 100%
   height 100%
-  background #F0FFFF
+  background #F8F8FF
+  .scoll
+    padding-top 1rem
+    margin-bottom 0.5rem
 </style>

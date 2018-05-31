@@ -11,9 +11,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "bodymovin": "^4.13.0",
     "muse-ui": "^2.1.0",
     "stylus": "^0.54.5",
     "vue": "^2.5.2",
+    "vue-lottie": "^0.2.1",
     "vue-router": "^3.0.1",
     "vue-ydui": "^1.2.2",
     "ydui-district": "^1.1.0"

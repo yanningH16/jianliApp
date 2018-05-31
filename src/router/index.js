@@ -6,6 +6,7 @@ import Second from '@/components/second'
 import ProjectInfo from '@/components/projectInfo'
 import Skills from '@/components/skills'
 import Evaluation from '@/components/evaluation'
+import ProjectScr from '@/components/projectScr'
 Vue.use(Router)
 
 export default new Router({
@@ -39,6 +40,11 @@ export default new Router({
       path: '/evaluation',
       name: 'evaluation',
       component: Evaluation
+    },
+    {
+      path: '/projectScr',
+      name: 'projectScr',
+      component: ProjectScr
     }
   ]
 })

@@ -5,6 +5,7 @@
       <yd-button @click.native="btn" shape='circle' type="danger">基本信息</yd-button><br>
       <yd-button @click.native="btns" type="primary" shape='circle' style="margin-top:0.3rem">技能信息</yd-button><br>
       <yd-button @click.native="project" type="warning" shape='circle' style="margin-top:0.3rem">项目信息</yd-button><br>
+      <yd-button @click.native="projectScr" bgcolor='#FF69B4' shape='circle' color='#FFFFFF' style="margin-top:0.3rem">项目截图</yd-button><br>
       <yd-button @click.native="evaluation" bgcolor='#98F5FF' shape='circle' color='#FFFFFF' style="margin-top:0.3rem">自我评价</yd-button><br>
     </div>
   </div>
@@ -29,6 +30,9 @@ export default {
     },
     evaluation () {
       this.$router.push({ name: 'evaluation' })
+    },
+    projectScr () {
+      this.$router.push({ name: 'projectScr' })
     }
   }
 }
