@@ -1,10 +1,12 @@
 <template>
   <div class="hello">
+    <h1>个人简历</h1>
     <div class="home">
-      <yd-button @click.native="btn" type="primary">我是首页</yd-button><br>
-      <yd-button @click.native="btns" type="primary" style="margin-top:0.3rem">我是关于</yd-button>
+      <yd-button @click.native="btn" shape='circle' type="danger">基本信息</yd-button><br>
+      <yd-button @click.native="btns" type="primary" shape='circle' style="margin-top:0.3rem">技能信息</yd-button><br>
+      <yd-button @click.native="project" type="warning" shape='circle' style="margin-top:0.3rem">项目信息</yd-button><br>
+      <yd-button @click.native="evaluation" bgcolor='#98F5FF' shape='circle' color='#FFFFFF' style="margin-top:0.3rem">自我评价</yd-button><br>
     </div>
-    <yd-button size="large" type="primary">大按钮</yd-button>
   </div>
 </template>
 
@@ -20,7 +22,13 @@ export default {
       this.$router.push({ name: 'first' })
     },
     btns () {
-      this.$router.push({ name: 'second' })
+      this.$router.push({ name: 'skills' })
+    },
+    project () {
+      this.$router.push({ name: 'projectInfo' })
+    },
+    evaluation () {
+      this.$router.push({ name: 'evaluation' })
     }
   }
 }
@@ -30,9 +38,17 @@ export default {
   height 100%
   .home
     position absolute
-    top 45%
+    top 30%
     left 40%
     text-align center
     padding 3px
     cursor pointer
+  h1
+    width 100%
+    height 0.5rem
+    background #00CDCD
+    text-align center
+    line-height 0.5rem
+    font-size 0.2rem
+    border-radius 3px
 </style>

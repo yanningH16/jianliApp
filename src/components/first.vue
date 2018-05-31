@@ -1,8 +1,7 @@
 <template>
-  <div>
     <div class="contet">
-      <yd-tab v-model="tab1">
-        <yd-tab-panel label="个人信息">
+      <!-- <yd-tab v-model="tab1">
+        <yd-tab-panel label="个人信息"> -->
           <h2>个人基本资料</h2>
           <div class="detail">
             <!-- <yd-cell-group> -->
@@ -70,13 +69,12 @@
               </yd-cell-item>
             </p>
           </div>
-        </yd-tab-panel>
+        <!-- </yd-tab-panel>
         <yd-tab-panel label="技能信息">技能信息</yd-tab-panel>
         <yd-tab-panel label="项目信息">项目信息</yd-tab-panel>
          <yd-tab-panel label="个人评价">个人评价</yd-tab-panel>
-      </yd-tab>
+      </yd-tab> -->
     </div>
-  </div>
 </template>
 <script type="text/ecmascript-6">
 import District from 'ydui-district/dist/jd_province_city_area_id'
@@ -94,8 +92,8 @@ export default {
       input8: '',
       input9: '',
       input10: '',
-      input11: '',
-      tab1: 3
+      input11: ''
+      // tab1: 0
     }
   },
   methods: {
@@ -107,11 +105,12 @@ export default {
 </script>
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 .contet
-  // margin-top 2rem
+  background #E0EEE0
+  height 100%
   h2
     text-align center
     font-size .2rem
-    margin-top .2rem
+    padding-top .2rem
   .detail
     margin-top .2rem
     font-size .15rem
