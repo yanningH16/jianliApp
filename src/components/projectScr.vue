@@ -1,6 +1,6 @@
 <template>
   <div class="wrap">
-    <yd-slider autoplay="3000">
+    <yd-slider >
         <yd-slider-item>
                 <img src="../assets/image/1.png">
         </yd-slider-item>
