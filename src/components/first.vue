@@ -15,7 +15,8 @@
             <p>
               <yd-cell-item arrow>
                 <span class="color" slot="left">出生年月：</span>
-                <yd-datetime type="date" v-model="datetime4" slot="right"></yd-datetime>
+                <!-- <yd-datetime type="date" v-model="datetime4" slot="right"></yd-datetime> -->
+                <yd-input slot="right" v-model="datetime4"  :show-clear-icon="false" placeholder="请输入"></yd-input>
               </yd-cell-item>
             </p>
             <!-- </yd-cell-group> -->
