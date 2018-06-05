@@ -33,7 +33,7 @@
                   <em style="margin-right:0.25rem">籍</em>贯:</span>
                 <input slot="right" type="text" @click.stop="show2 = true" v-model="model2" readonly placeholder="请选择">
               </yd-cell-item>
-              <yd-cityselect v-model="show2" ref="cityselectDemo" :callback="result2" :items="district" provance="河南" city="郑州市" area=""></yd-cityselect>
+              <yd-cityselect v-model="show2" ref="cityselectDemo" :callback="result2" :items="district" provance="河南" city="" area=""></yd-cityselect>
             </p>
             <p>
               <yd-cell-item>
@@ -82,17 +82,17 @@ export default {
   name: 'first',
   data () {
     return {
-      input7: '',
+      input7: '鄢宁',
       radio2: 1,
-      datetime4: '2017-8-25',
+      datetime4: '1992-03-20',
       show2: false,
       model2: '河南省 郑州市',
       district: District,
-      datetime5: '',
-      input8: '',
-      input9: '',
-      input10: '',
-      input11: ''
+      datetime5: '2016',
+      input8: '河南工业大学',
+      input9: 'web前端开发岗位',
+      input10: '15037183341',
+      input11: 'y_ning26@163.com'
       // tab1: 0
     }
   },

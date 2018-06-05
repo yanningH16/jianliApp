@@ -2,23 +2,40 @@
   <div class="wrap">
     <h1>技能信息</h1>
     <p>
-      <span>1.</span><em>等一个人、还是等一个故事测试时所所所所所所所法规的非官方个地方所</em>
+      <span>1.</span>
+      <em>精通HTML/CSS，对标签的使用能够做到语义化、合理化、模块化，并且符合W3C标准，充分实现结构、表现、行为的三者分离</em>
     </p>
     <p>
-      <span>2.</span><em>回得了过去，回不了当初</em></p>
+      <span>2.</span>
+      <em>熟练掌握JavaScript，jQuery，能够实现常用的交互效果</em>
+    </p>
     <p>
-      <span>3.</span><em>我是唯一有伞，仍然淋湿的人吗？</em></p>
+      <span>3.</span>
+      <em>熟练掌握vue全家桶(vue+ vue-router +vuex+ axios +es6 +stylus)</em>
+    </p>
     <p>
-      <span>4.</span><em>向来缘浅，奈何情深？</em></p>
+      <span>4.</span>
+      <em>熟练掌握webpack快速构建项目,以及项目打包的使用</em>
+    </p>
     <p>
-      <span>5.</span><em>戏子入画、一生天涯。</em></p>
+      <span>5.</span>
+      <em>熟练使用Vue2.0的组件库如 Element, mint, ydui, muse, vux等</em>
+    </p>
     <p>
-      <span>6.</span><em>只身步步海天涯、路无归、霜满颜。</em></p>
+      <span>6.</span>
+      <em>了解AngularJS和react,能够简单构建项目</em>
+    </p>
     <p>
-      <span>7.</span><em>夜微凉、灯微暗、暧昧散尽、笙歌婉转。</em></p>
+      <span>7.</span>
+      <em>熟练使用团队代码管理工具，如：git、svn</em>
+    </p>
+    <p>
+      <span>8.</span>
+      <em>能够使用Xshell将项目部署上线</em>
+    </p>
     <div class="progree">
       综合掌握程度
-      <div class="round" >
+      <div class="round">
         <yd-progressbar :progress="progress2" trail-width="2" stroke-width="4" stroke-color="#B2B2B2" trail-color="#FE5D51" fill-color="#EAEAEA">{{progress2 * 100}}%</yd-progressbar>
       </div>
     </div>
@@ -47,7 +64,6 @@ export default {
       margin-right 0.1rem
     em
       width 93%
-      display inline-table
   h1
     text-align center
     font-size 0.2rem
