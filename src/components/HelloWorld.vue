@@ -36,8 +36,8 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 .hello
   height 100%
-  // background url('../assets/image/bg1.png')
-  // background-size 100% 100%
+  background url('../assets/image/bg1.png')
+  background-size 100% 100%
   width 100%
   .home
     position absolute

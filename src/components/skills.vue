@@ -55,7 +55,8 @@ export default {
 .wrap
   width 100%
   height 100%
-  // background #F8F8FF
+  background url('../assets/image/bg1.png')
+  background-size 100% 100%
   p
     padding 0.2rem
     font-size 0.13rem

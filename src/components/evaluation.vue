@@ -36,7 +36,8 @@ export default {
 .evaluation
   width 100%
   height 100%
-  // background #F8F8FF
+  background url('../assets/image/bg1.png')
+  background-size 100% 100%
   .scoll
     padding-top 1rem
     margin-bottom 0.5rem

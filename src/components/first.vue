@@ -106,7 +106,8 @@ export default {
 </script>
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 .contet
-  // background #F8F8FF
+  background url('../assets/image/bg1.png')
+  background-size 100% 100%
   height 100%
   h2
     text-align center
