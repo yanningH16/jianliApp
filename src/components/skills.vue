@@ -55,7 +55,7 @@ export default {
 .wrap
   width 100%
   height 100%
-  background #F8F8FF
+  // background #F8F8FF
   p
     padding 0.2rem
     font-size 0.13rem
@@ -72,7 +72,8 @@ export default {
   .progree
     text-align center
     font-size 0.2rem
-    color #EE0000
+    color #2D835C
+    background #C2E0DE
     .round
       width 0.6rem
       height 0.6rem

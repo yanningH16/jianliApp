@@ -36,7 +36,7 @@ export default {
 .evaluation
   width 100%
   height 100%
-  background #F8F8FF
+  // background #F8F8FF
   .scoll
     padding-top 1rem
     margin-bottom 0.5rem

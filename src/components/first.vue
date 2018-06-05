@@ -105,7 +105,7 @@ export default {
 </script>
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 .contet
-  background #F8F8FF
+  // background #F8F8FF
   height 100%
   h2
     text-align center

@@ -7,6 +7,9 @@ import ProjectInfo from '@/components/projectInfo'
 import Skills from '@/components/skills'
 import Evaluation from '@/components/evaluation'
 import ProjectScr from '@/components/projectScr'
+import SmsSrc from '@/components/smsSrc'
+import HchwSrc from '@/components/hchwSrc'
+import HshSrc from '@/components/hshSrc'
 Vue.use(Router)
 
 export default new Router({
@@ -15,6 +18,21 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/smsSrc',
+      name: 'smsSrc',
+      component: SmsSrc
+    },
+    {
+      path: '/hshSrc',
+      name: 'hshSrc',
+      component: HshSrc
+    },
+    {
+      path: '/hchwSrc',
+      name: 'hchwSrc',
+      component: HchwSrc
     },
     {
       path: '/first',

@@ -25,8 +25,8 @@
             <em>5.</em>自测，利用Xshell部署到线上
             <em>6.</em>后期进行相应的优化和维护。
           </p>
-          <p>
-            <span>点击查看项目截图</span>
+          <p style="color:#CD1076">
+           <router-link :to="{name:'smsSrc'}">~点击查看项目截图~</router-link>
           </p>
         </div>
       </yd-accordion-item>
@@ -43,8 +43,8 @@
             <em>5.</em>自测，利用Xshell部署到线上
             <em>6.</em>后期进行相应的优化和维护。
           </p>
-          <p>
-            <span>点击查看项目截图</span>
+          <p style="color:#CD1076">
+           <router-link :to="{name:'hchwSrc'}">点击查看项目截图</router-link>
           </p>
         </div>
       </yd-accordion-item>
@@ -61,8 +61,8 @@
             <em>5.</em>自测，利用webpack打包上线，利用Xshell部署到线上
             <em>6.</em>后期进行相应的优化和维护。
           </p>
-          <p>
-            <span>点击查看项目截图</span>
+          <p style="color:#CD1076">
+          <router-link :to="{name:'hshSrc'}">点击查看项目截图</router-link>
           </p>
         </div>
       </yd-accordion-item>
@@ -79,8 +79,8 @@
             <em>5.</em>自测，利用webpack打包上线，利用Xshell部署到线上
             <em>6.</em>后期进行相应的优化和维护。
           </p>
-          <p>
-            <span>点击查看项目截图</span>
+          <p style="color:#CD1076">
+           <router-link :to="{name:'projectScr'}">点击查看项目截图</router-link>
           </p>
         </div>
       </yd-accordion-item>
@@ -108,15 +108,15 @@ export default {
 .wrap
   width 100%
   height 100%
-  background #F8F8FF
+  // background #F8F8FF
   .texts
     padding 0 0.24rem 0.24rem 0.24rem
     p
       line-height 0.3rem
-      font-size 0.17rem
+      font-size 0.13rem
       span
         color #9932CC
-        font-size 0.18rem
+        font-size 0.14rem
         font-weight 800
       em
         color #ff3341

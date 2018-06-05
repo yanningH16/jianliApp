@@ -2,31 +2,34 @@
   <div class="wrap">
     <yd-slider >
         <yd-slider-item>
-                <img src="../assets/image/1.png">
+                <img src="../assets/image/kb1.png">
         </yd-slider-item>
         <yd-slider-item>
-                <img src="../assets/image/2.png">
+                <img src="../assets/image/kb7.png">
         </yd-slider-item>
         <yd-slider-item>
-                <img src="../assets/image/6.png">
+                <img src="../assets/image/kb8.png">
         </yd-slider-item>
         <yd-slider-item>
-                <img src="../assets/image/4.png">
+                <img src="../assets/image/kb2.png">
         </yd-slider-item>
         <yd-slider-item>
-                <img src="../assets/image/7.png">
+                <img src="../assets/image/kb3.png">
         </yd-slider-item>
         <yd-slider-item>
-                <img src="../assets/image/9.png">
+                <img src="../assets/image/kb4.png">
         </yd-slider-item>
         <yd-slider-item>
-                <img src="../assets/image/15.png">
+                <img src="../assets/image/kb5.png">
         </yd-slider-item>
         <yd-slider-item>
-                <img src="../assets/image/16.png">
+                <img src="../assets/image/kb6.png">
         </yd-slider-item>
         <yd-slider-item>
-                <img src="../assets/image/12.png">
+                <img src="../assets/image/kb9.png">
+        </yd-slider-item>
+        <yd-slider-item>
+                <img src="../assets/image/kb10.png">
         </yd-slider-item>
     </yd-slider>
   </div>
